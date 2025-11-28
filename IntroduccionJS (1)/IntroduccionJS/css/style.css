@@ -1,0 +1,337 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Palatino Linotype', sans-serif;
+  background: linear-gradient(to right, #182848, #20c9bb);
+  color: white;
+}
+
+header {
+  background-color: #016b61;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 3rem;
+}
+
+h3{
+text-align: justify;
+font-family: "Latin Modern Roman";
+font-weight: 300;
+margin-left: 300px;
+margin-right: 300px;
+font-size: 1.5rem;
+}
+
+h4{
+text-align: center;
+font-family: "Palatino Linotype";
+font-weight: 800;
+font-style: italic;
+margin-left: 300px;
+margin-right: 300px;
+margin-top: 70px;
+font-size: 3.0rem;
+}
+
+h5{
+text-align: justify;
+font-family: "Latin Modern Roman";
+font-weight: 300;
+margin-left: 300px;
+margin-right: 300px;
+font-size: 1.5rem;
+}
+
+h6{
+text-align: center;
+font-family: "Latin Modern Roman";
+font-weight: 300;
+font-style: italic;
+margin-left: 300px;
+margin-right: 300px;
+font-size: 1.5rem;
+}
+
+.h7{
+text-align: justify;
+font-family: "Latin Modern Roman";
+font-weight: 300;
+margin-left: 300px;
+margin-right: 300px;
+font-size: 1.5rem;
+}
+
+.h8{
+text-align: center;
+font-family: "Palatino Linotype";
+font-weight: 800;
+font-style: italic;
+margin-left: 300px;
+margin-right: 300px;
+margin-top: 70px;
+font-size: 3.0rem;
+}
+
+.tiposporcomposicion{
+text-align: justify;
+font-family: "Latin Modern Roman";
+font-weight: 700;
+font-style: oblique 10deg;
+margin-left: 300px;
+margin-right: 300px;
+font-size: 1.5rem;
+color: #F5F3EE;
+}
+
+.resistorescomposicion1{
+text-align: justify;
+font-family: "Latin Modern Roman";
+font-weight: 300;
+font-style: oblique 10deg;
+margin-left: 300px;
+margin-right: 300px;
+font-size: 1.5rem;
+color:#F5F3EE ;
+}
+
+.textoresistor1{
+text-align: justify;
+font-family: "Latin Modern Roman";
+font-weight: 300;
+margin-left: 300px;
+margin-right: 300px;
+font-size: 1.5rem;
+}
+
+.imgresistor1{
+  display: block;
+  margin: 2rem auto;       /* Centra horizontalmente */
+  max-width: 300px;        /* Ajusta el tamaño máximo */
+  height: auto;            /* Mantiene proporción */
+  border-radius: 10px;     /* Bordes redondeados */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Sombrita elegante */ 
+}
+
+.resistorescomposicion2{
+text-align: justify;
+font-family: "Latin Modern Roman";
+font-weight: 300;
+font-style: oblique 10deg;
+margin-left: 300px;
+margin-right: 300px;
+font-size: 1.5rem;
+color:#F5F3EE ;
+}
+
+.textoresistor2{
+text-align: justify;
+font-family: "Latin Modern Roman";
+font-weight: 300;
+margin-left: 300px;
+margin-right: 300px;
+font-size: 1.5rem;
+}
+
+.imgresistor2{
+  display: block;
+  margin-left: 400px;
+  margin-right: 20px;       /* Centra horizontalmente */
+  max-width: 100px;        /* Ajusta el tamaño máximo */
+  height: auto;            /* Mantiene proporción */
+  border-radius: 10px;     /* Bordes redondeados */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Sombrita elegante */ 
+}
+
+.img-Resistores{
+  display: block;
+  margin: 2rem auto;       /* Centra horizontalmente */
+  max-width: 300px;        /* Ajusta el tamaño máximo */
+  height: auto;            /* Mantiene proporción */
+  border-radius: 10px;     /* Bordes redondeados */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Sombrita elegante */
+}
+
+.resistorescomposicion3{
+  text-align: justify;
+font-family: "Latin Modern Roman";
+font-weight: 300;
+font-style: oblique 10deg;
+margin-left: 300px;
+margin-right: 300px;
+font-size: 1.5rem;
+color:#F5F3EE ;
+}
+
+.textoresistor3{
+text-align: justify;
+font-family: "Latin Modern Roman";
+font-weight: 300;
+margin-left: 300px;
+margin-right: 300px;
+margin-bottom: 85px;
+font-size: 1.5rem;
+}
+
+.imgresistor3{
+  display: block;
+  margin-left: 300px;
+  margin-right: 20px;       /* Centra horizontalmente */
+  max-width: 100px;        /* Ajusta el tamaño máximo */
+  height: auto;            /* Mantiene proporción */
+  border-radius: 10px;     /* Bordes redondeados */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Sombrita elegante */ 
+}
+
+.resistorescomposicion4{
+  text-align: justify;
+font-family: "Latin Modern Roman";
+font-weight: 300;
+font-style: oblique 10deg;
+margin-left: 300px;
+margin-right: 300px;
+font-size: 1.5rem;
+color:#F5F3EE ;
+}
+
+.textoresistor4{
+text-align: justify;
+font-family: "Latin Modern Roman";
+font-weight: 300;
+margin-left: 300px;
+margin-right: 300px;
+margin-bottom: 85px;
+font-size: 1.5rem;
+}
+
+.imgresistor4{
+  display: block;
+  margin-left: 300px;
+  margin-right: 20px;       /* Centra horizontalmente */
+  max-width: 100px;        /* Ajusta el tamaño máximo */
+  height: auto;            /* Mantiene proporción */
+  border-radius: 10px;     /* Bordes redondeados */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Sombrita elegante */ 
+}
+
+.tiposporcomposicion{
+text-align: justify;
+font-family: "Latin Modern Roman";
+font-weight: 700;
+font-style: oblique 10deg;
+margin-left: 300px;
+margin-right: 300px;
+font-size: 1.5rem;
+color: #F5F3EE;
+}
+
+.texto{
+text-align: justify;
+font-family: "Latin Modern Roman";
+font-weight: 300;
+margin-left: 300px;
+margin-right: 300px;
+margin-bottom: 85px;
+font-size: 1.5rem;
+}
+
+.subtitulo{
+text-align: justify;
+font-family: "Latin Modern Roman";
+font-weight: 700;
+font-style: oblique 10deg;
+margin-left: 300px;
+margin-right: 300px;
+font-size: 1.5rem;
+color: #F5F3EE;
+}
+
+header p {
+  margin: 0.5rem 0;
+  font-size: 1.5rem;
+}
+
+.hashtag {
+  font-family: "Palatino Linotype", Helvetica, sans-serif;
+  font-size: 1.2rem;
+  color: #70b2b2;
+}
+
+nav {
+  background-color: #70b2b2;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem 0;
+  margin-top: 1rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #9ecfd4;
+}
+
+.contenido {
+  max-width: 1200px;
+  margin: 4rem auto;
+  text-align: center;
+}
+
+button {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #016b61;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #018f84;
+}
+
+/* 🎨 Estilos para formularios */
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  color: white;
+  text-align: left;
+}
+
+input {
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1.5rem;
+  border: 2px solid #70b2b2;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:focus {
+  border-color: #016b61;
+  box-shadow: 0 0 5px #016b61;
+}
+
+form {
+  max-width: 500px;
+  margin: 2rem auto;
+  text-align: left;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 2rem;
+  border-radius: 10px;
+}

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Introducción JavaScript</title>
+  <link href="https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+     <header>
+    <div class="branding">
+      <h1>Introducción a los componentes Eléctricos</h1>
+      <p>Circuitos Eléctricos</p>
+      <p class="hashtag" style="color: #e5e9c5;">Peregrina Chavarría José Elías - Briseño Rodríguez Ivana Naomi</p>
+    </div>
+    <nav>
+      <a href="index.html">Componentes Eléctricos</a>  
+      <a href="1.html">Resistores</a>
+      <a href="2.html">Capacitores</a>
+      <a href="3.html">Inductores</a>
+      <a href="4.html">Diodos</a>
+      <a href="5.html">Transistores</a>
+      <a href="6.html">Bibliografía</a>
+    </nav>
+  </header>
+  <div class="contenido" id="datos">
+    <h2>Aquí aprenderás acerca de los Transistores 𓇲 𓇲</h2>
+  </div>
+  <p class="subtitulo">Transistor</p>
+<p class="subtitulo">¿Qué es?</p>
+<p class="texto">Un **transistor** es un dispositivo que controla la corriente eléctrica actuando como **amplificador** o **interruptor**. Como amplificador, puede aumentar la salida eléctrica con una entrada pequeña. Como interruptor, puede alternar entre los estados de encendido y apagado para regular la corriente eléctrica. Estas capacidades lo hacen esencial para aplicaciones cotidianas, desde ordenadores hasta satélites espaciales.</p>
+
+<p class="imgresistor3">
+<img src="imagenes/ejemplotran1.png" alt="">
+</p>
+
+<p class="subtitulo">¿Cómo funciona?</p>
+<p class="texto">Cuando una **pequeña corriente** fluye a través de la **base**, controla el flujo de una corriente mucho mayor entre el **emisor** y el **colector**. 
+
+
+<br>Esto sucede porque la unión base-emisor está polarizada directamente, lo que permite el flujo de electrones del emisor a la base. Aunque la unión base-colector está polarizada inversamente (actuando como barrera), la corriente en la base abre esta unión y permite que los electrones fluyan del emisor al colector. Este proceso permite que la base controle el flujo de corriente.</p>
+<p class="subtitulo">Función</p>
+<p class="texto">Un transistor puede actuar en varias funciones clave:</p>
+<ul>
+    <li>**Interruptor o Puerta:** Activa o desactiva circuitos electrónicos. Es fundamental en la **lógica digital** (computadoras) para representar los unos y ceros del código binario.</li>
+    <li>**Control de Suministro de Energía:** Interrumpe y activa el flujo de corriente y ajusta el nivel de voltaje para un uso eficiente de la energía.</li>
+    <li>**Amplificador:** Uno de los usos más importantes. Puede **amplificar señales débiles** (como la salida de un micrófono) hasta niveles utilizables (como para alimentar un altavoz).</li>
+</ul>
+<p class="subtitulo">¿Cuáles son los dos tipos principales de transistores?</p>
+<p class="subtitulo">BJT (Transistor Bipolar de Unión)</p>
+<p class="texto">En un **BJT**, la unión base-emisor se polariza directamente con una pequeña corriente, permitiendo que los electrones fluyan del emisor a la base. La unión base-colector, inversamente polarizada, es superada por este flujo, creando una pequeña corriente entre colector y emisor que es controlada por la corriente de base. 
+
+
+</p>
+<p class="subtitulo">FET (Transistor de Efecto de Campo)</p>
+<p class="texto">En un **FET**, la terminal de **puerta** está aislada del **canal** (que conecta la **fuente** y el **drenaje**). Al aplicar un voltaje a la puerta, se crea un campo eléctrico que modifica la conductividad del canal, controlando así el flujo de corriente entre la fuente y el drenaje. Los FET tienen una **alta impedancia de entrada**, lo que significa que consumen muy poca corriente de la señal de entrada. 
+
+
+</p>
+<p class="texto">De esta forma, los transistores actúan como un interruptor o un amplificador, según cómo estén conectados y cuánta corriente los atraviese. La corriente de entrada controla la corriente de salida, lo que permite amplificar o conmutar señales.</p>
+
+<p class="imgresistor3">
+<img src="imagenes/ejemplotran2.png" alt="">
+</p>
+
+
+<p class="subtitulo">HECHOS Y APLICACIONES (Transistor NPN)</p>
+<p class="texto">El transistor **NPN** es un dispositivo electrónico compuesto por tres regiones semiconductoras inter-conectadas: **N-P-N**. Este elemento tiene tres pines de conexión y es **bipolar** (BJT). El material semiconductor puede funcionar como conductor o como aislante, de acuerdo con la polarización eléctrica.</p>
+<p class="subtitulo">Estructura de capas</p>
+<p class="texto">El transistor NPN está compuesto por tres capas de materiales semiconductores (cristales de silicio o germanio) **dopados** de forma distinta:</p>
+<ul>
+    <li>**Material o Capa N:** Tiene un electrón de más. Se dopa con impurezas pentavalentes (5 electrones) como Arsénico, Fósforo o Antimonio. </li>
+    <li>**Material o Capa P:** Le falta un electrón (**hueco**). Se dopa con impurezas trivalentes (3 electrones) como Boro. </li>
+</ul>
+<p class="subtitulo">Estructura interna</p>
+
+<p class="imgresistor3">
+<img src="imagenes/ejemplotran3.png" alt="">
+</p>
+
+<p class="texto">El transistor NPN tiene tres pines de conexión:</p>
+<ul>
+    <li>**Colector (C):** Conectado a la capa **N** externa.</li>
+    <li>**Base (B):** Conectado a la capa **P** central.</li>
+    <li>**Emisor (E):** Conectado a la capa **N** externa.</li>
+</ul>
+<p class="texto">Una unión NP se le conoce también como **diodo**. </p>
+
+<p class="subtitulo">FASES DE OPERACIÓN</p>
+<p class="texto">Un transistor puede estar en tres estados principales, que se entienden con el siguiente símil hidráulico:</p>
+<p class="subtitulo">1. Estado de Corte (Interruptor Abierto)</p>
+<p class="texto">**Símil:** Si no hacemos nada en la tubería B, el tapón obstruye el paso de C a E. </p>
+<p class="texto">**Transistor:** Si por la **Base no entra corriente**, el Colector y el Emisor están aislados. El transistor funciona como un **interruptor abierto**. Se utiliza en circuitos lógicos para representar un **cero** lógico (OFF).</p>
+<p class="subtitulo">2. Estado de Activa (Amplificador)</p>
+<p class="texto">**Símil:** Si introducimos una **pequeña corriente** por B, el tapón se desplaza ligeramente, permitiendo el paso de corriente de C a E. </p>
+<p class="texto">**Transistor:** Sí pasa corriente del Colector al Emisor, controlada por la Base. El transistor se comporta como un **amplificador**, multiplicando la corriente de base por un factor llamado **ganancia** ($\beta$ ó $h_{FE}$). Se utiliza para amplificar señales analógicas.</p>
+<p class="subtitulo">3. Estado de Saturación (Interruptor Cerrado)</p>
+<p class="texto">**Símil:** Si se introduce una **corriente suficientemente grande** por B, se produce el completo desplazamiento del tapón, y C y E quedan comunicados por completo. </p>
+<p class="texto">**Transistor:** El paso de corriente del C al E es el mayor posible. El transistor está funcionando como un **interruptor cerrado** (ON). Se utiliza en circuitos lógicos para representar un **uno** lógico.</p>
+
+<table>
+    <thead>
+        <tr>
+            <th>Estado</th>
+            <th>Función</th>
+            <th>Corriente de Base (I<sub>B</sub>)</th>
+            <th>Corriente de Colector (I<sub>C</sub>)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Corte</td>
+            <td>Interruptor Abierto (OFF)</td>
+            <td>I<sub>B</sub> = 0</td>
+            <td>I<sub>C</sub> ≈ 0</td>
+        </tr>
+        <tr>
+            <td>Activa</td>
+            <td>Amplificador</td>
+            <td>Pequeña</td>
+            <td>I<sub>C</sub> = β · I<sub>B</sub></td>
+        </tr>
+        <tr>
+            <td>Saturación</td>
+            <td>Interruptor Cerrado (ON)</td>
+            <td>Grande</td>
+            <td>Máxima posible (I<sub>C&nbsp;sat</sub>)</td>
+        </tr>
+    </tbody>
+</table>
+<p class="imgresistor3">
+<img src="imagenes/ejemplotran4.png" alt="">
+</p>
+</body>
+</html>
