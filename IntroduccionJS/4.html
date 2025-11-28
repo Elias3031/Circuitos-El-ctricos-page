@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Introducción JavaScript</title>
+  <link href="https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+     <header>
+    <div class="branding">
+      <h1>Introducción a los componentes Eléctricos</h1>
+      <p>Circuitos Eléctricos</p>
+      <p class="hashtag" style="color: #e5e9c5;">Peregrina Chavarría José Elías - Briseño Rodríguez Ivana Naomi</p>
+    </div>
+    <nav>
+      <a href="index.html">Componentes Eléctricos</a>  
+      <a href="1.html">Resistores</a>
+      <a href="2.html">Capacitores</a>
+      <a href="3.html">Inductores</a>
+      <a href="4.html">Diodos</a>
+      <a href="5.html">Transistores</a>
+      <a href="6.html">Bibliografía</a>
+    </nav>
+  </header>
+  <div class="contenido" id="datos">
+    <h2>Aquí aprenderás acerca de los Diodos ➤|  💡🔆 </h2>
+  </div>
+  <p class="subtitulo">Diodo</p>
+<p class="subtitulo">¿Qué es?</p>
+<p class="texto">Un <strong>diodo</strong> es un dispositivo semiconductor que actúa esencialmente como un **interruptor unidireccional** para la corriente. Permite que la corriente fluya en una dirección, pero no permite a la corriente fluir en la dirección opuesta. 
+
+<p class="imgresistor3">
+<img src="imagenes/ejemplodio1.png" alt="">
+</p>
+
+</p>
+<p class="texto">Los diodos también se conocen como **rectificadores** porque cambian corriente alterna (CA) a corriente continua (CC) pulsante. Los diodos tienen una polaridad determinada por un **ánodo** (terminal positivo) y un **cátodo** (terminal negativo). La mayoría de los diodos permiten que la corriente fluya solo cuando se aplica tensión al ánodo positivo.</p>
+<p class="texto">Cuando un diodo permite un flujo de corriente, tiene **polarización directa**. Cuando un diodo tiene polarización inversa, actúa como un aislante y no permite que fluya la corriente.</p>
+
+<p class="subtitulo">Tipos de diodo</p>
+<p class="texto">Todos los tipos de diodos tienen la función básica de conducción unidireccional, pero difieren en su diseño, estructura y características. A continuación, se presentan varios tipos:</p>
+<table>
+    <thead>
+        <tr>
+            <th>Tipo de diodo</th>
+            <th>Descripción</th>
+            <th>CARACTERÍSTICAS PRINCIPALES</th>
+            <th>Aplicaciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Diodo rectificador</td>
+            <td>Tipo básico de diodo utilizado para la conversión de potencia.</td>
+            <td>Convierte CA en CC; maneja alta corriente y voltaje.</td>
+            <td>Fuentes de alimentación, adaptadores, cargadores</td>
+        </tr>
+        <tr>
+            <td>Diodo de pequeña señal</td>
+            <td>Diseñado para pequeñas corrientes y voltajes.</td>
+            <td>Conmutación de alta velocidad, baja capacitancia.</td>
+            <td>Circuitos de RF, conmutación lógica</td>
+        </tr>
+        <tr>
+            <td>Diodo Zener</td>
+            <td>Diodo especial trabajando en ruptura inversa.</td>
+            <td>Mantiene constante la tensión Zener; regulación de tensión.</td>
+            <td>Estabilización de potencia, protección contra sobretensiones</td>
+        </tr>
+        <tr>
+            <td>Diodo de Schottky</td>
+            <td>Diodo de unión metal-semiconductor.</td>
+            <td>Baja caída de tensión directa (0.2–0.4 V), conmutación muy rápida.</td>
+            <td>Fuentes de alimentación, circuitos de RF, paneles solares</td>
+        </tr>
+        <tr>
+            <td>Diodo emisor de luz (LED)</td>
+            <td>Emite luz cuando está polarizado hacia adelante.</td>
+            <td>Eficiencia energética, larga vida útil, opciones multicolor.</td>
+            <td>Pantallas, iluminación, indicadores, automoción</td>
+        </tr>
+        <tr>
+            <td>Fotodiodo</td>
+            <td>Convierte la luz en corriente eléctrica.</td>
+            <td>Alta sensibilidad, respuesta rápida, operación con polarización inversa.</td>
+            <td>Células solares, comunicación óptica, sensores.</td>
+        </tr>
+        <tr>
+            <td>Diodo láser</td>
+            <td>Similar al LED pero produce luz láser.</td>
+            <td>Emite un haz coherente y monocromático.</td>
+            <td>Fibra óptica, lectores de códigos de barras, unidades de DVD/CD</td>
+        </tr>
+        <tr>
+            <td>Diodo de avalancha</td>
+            <td>Opera en la región de ruptura de avalanchas.</td>
+            <td>Soporta altos voltajes, absorbe sobretensiones.</td>
+            <td>Protección contra sobretensiones, circuitos de alto voltaje</td>
+        </tr>
+        <tr>
+            <td>Diodo TVS</td>
+            <td>Dispositivo de supresión de tensión transitoria.</td>
+            <td>Respuesta muy rápida; sujeta picos de tensión.</td>
+            <td>Protección ESD, líneas de comunicación</td>
+        </tr>
+        <tr>
+            <td>Diodo PIN</td>
+            <td>Estructura de capa P, capa intrínseca, capa N.</td>
+            <td>Resistencia variable a alta frecuencia.</td>
+            <td>Interruptores, atenuadores y fotodetectores de RF.</td>
+        </tr>
+        <tr>
+            <td>Diodo varactor (varicap)</td>
+            <td>Actúa como un condensador controlado por voltaje.</td>
+            <td>La capacitancia varía con el voltaje inverso.</td>
+            <td>Sintonización de RF, circuitos PLL, VCO</td>
+        </tr>
+        <tr>
+            <td>Diodo túnel (Esaki)</td>
+            <td>Diodo de unión PN fuertemente dopado.</td>
+            <td>Efecto túnel, resistencia negativa.</td>
+            <td>Osciladores de microondas, amplificadores</td>
+        </tr>
+        <tr>
+            <td>Diodo inverso</td>
+            <td>Variante de diodo túnel para pequeñas señales.</td>
+            <td>Optimizado para señales de RF de bajo voltaje.</td>
+            <td>Detección de RF, rectificación de señales</td>
+        </tr>
+        <tr>
+            <td>Diodo de recuperación escalonada (SRD)</td>
+            <td>Diodo “snap-off” para pulsos agudos.</td>
+            <td>Genera señales de tiempo de subida rápido.</td>
+            <td>Multiplicadores de frecuencia, sistemas de radar</td>
+        </tr>
+        <tr>
+            <td>Diodo Gunn</td>
+            <td>Fabricado en material tipo N, sin unión PN.</td>
+            <td>Utiliza el efecto Gunn para generar microondas.</td>
+            <td>Radar, osciladores de microondas</td>
+        </tr>
+        <tr>
+            <td>Diodo dopado con oro</td>
+            <td>Diodo PN dopado con átomos de oro.</td>
+            <td>Corta vida útil del portador, conmutación muy rápida.</td>
+            <td>Circuitos de detección de alta velocidad</td>
+        </tr>
+        <tr>
+            <td>Diodo de corriente constante</td>
+            <td>Dispositivo semiconductor limitador de corriente.</td>
+            <td>Mantiene un flujo de corriente constante.</td>
+            <td>Controladores LED, cargadores de batería</td>
+        </tr>
+        <tr>
+            <td>Peltier / Diodo térmico</td>
+            <td>Mueve calor en lugar de corriente.</td>
+            <td>Basado en el efecto Peltier; transferencia de calor direccional.</td>
+            <td>Refrigeración de la CPU, gestión térmica</td>
+        </tr>
+        <tr>
+            <td>Diodo de vacío</td>
+            <td>Los primeros diodos se construían en tubos de vacío.</td>
+            <td>Emisión termoiónica, capacidad de alto voltaje.</td>
+            <td>Radios antiguas, fuentes de alimentación antiguas</td>
+        </tr>
+    </tbody>
+</table>
+
+
+<p class="imgresistor3">
+<img src="imagenes/ejemplodio2.png" alt="">
+</p>
+
+<p class="subtitulo">Aplicaciones de diferentes tipos de diodos</p>
+<p class="texto">Cada tipo de diodo cumple una función única en diversos escenarios. La siguiente tabla resume las principales categorías de aplicación y los tipos de diodos correspondientes.</p>
+<table>
+    <thead>
+        <tr>
+            <th>Categoría de Aplicación</th>
+            <th>Aplicaciones</th>
+            <th>Tipos comunes de diodos</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Potencia y rectificación</td>
+            <td>Conversión de CA a CC en fuentes de alimentación, Rectificadores de puente</td>
+            <td>Diodos rectificadores</td>
+        </tr>
+        <tr>
+            <td>Regulación y fijación de voltaje</td>
+            <td>Regulación de voltaje, Sobretensiones de sujeción</td>
+            <td>Diodos Zener, diodos TVS</td>
+        </tr>
+        <tr>
+            <td>Procesamiento de señales</td>
+            <td>Circuitos de RF, Generación de pulsos agudos</td>
+            <td>Diodos de túnel, diodos PIN, diodos de recuperación escalonada (SRD)</td>
+        </tr>
+        <tr>
+            <td>Optoelectrónica</td>
+            <td>Iluminación y displays, Sistemas de comunicación óptica</td>
+            <td>LED, fotodiodos, diodos láser</td>
+        </tr>
+        <tr>
+            <td>RF y microondas</td>
+            <td>Osciladores de microondas, Sintonización de frecuencia</td>
+            <td>Diodos Gunn, diodos varactores</td>
+        </tr>
+        <tr>
+            <td>Circuitos de protección</td>
+            <td>Protección de carga inductiva, Supresión de ESD</td>
+            <td>Diodos flyback, diodos TVS</td>
+        </tr>
+        <tr>
+            <td>Aplicaciones térmicas y heredadas</td>
+            <td>Procesadores de refrigeración, Electrónica temprana</td>
+            <td>Diodos Peltier, diodos de vacío</td>
+        </tr>
+    </tbody>
+</table>
+
+<p class="subtitulo">Parte física</p>
+<p class="texto">Los diodos se construyen a partir de un material **semiconductor** (como el silicio). Al añadirle pequeñas cantidades de otros elementos (dopaje), se crean zonas donde hay muchos electrones libres (llamadas **zonas N**) y otras donde faltan muchos electrones (**zonas P**). Un diodo está formado por una zona P (**el ánodo**) unida a una zona N (**el cátodo**). 
+
+[Image of a PN junction diode structure]
+ </p>
+<p class="texto">Existen unos diodos especiales que emiten luz cuando pasa la corriente denominados **diodos LED**. Cuando un diodo LED está en estado de conducción, el voltaje entre sus extremos es cercano a los $2 V$. Generalmente, la intensidad de la corriente adecuada para un LED suele estar comprendida entre $5$ y $20 \text{ mA}$. </p>
+
+<p class="subtitulo">FÓRMULA (Resistencia limitadora para LED)</p>
+
+<p class="texto">
+Supongamos que disponemos de una pila de 4.5 V y queremos hacer pasar por el LED una corriente de 10 mA (0.01 A). 
+Para calcular la resistencia limitadora (R) aplicamos la Ley de Ohm (R = V / I). 
+El voltaje en la resistencia (V<sub>R</sub>) será la diferencia entre el voltaje de la pila (V<sub>pila</sub> = 4.5 V) 
+y el voltaje en el LED cuando conduce (V<sub>LED</sub> ≈ 2 V).
+</p>
+
+<p class="subtitulo">En definitiva:</p>
+<p class="imgresistor3">
+<img src="imagenes/ejemplodio3.png" alt="">
+</p>
+<p class="resistores-ecuaciones">
+V<sub>R</sub> = V<sub>pila</sub> − V<sub>LED</sub> = 4.5 V − 2 V = 2.5 V
+</p>
+
+<p class="subtitulo">Cálculo de la Resistencia (R):</p>
+
+<p class="resistores-ecuaciones">
+R = V<sub>R</sub> / I = 2.5 V / 0.01 A = 250 Ω
+</p>
+
+</body>
+</html>
